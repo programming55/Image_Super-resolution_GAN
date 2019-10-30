@@ -1,0 +1,47 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='../static/style.css'>
+  <script src='../static/client.js'></script>
+</head>
+<body>
+<div>
+  <div class='center'>
+    <div class='title'>Enhance Portrait Images</div>
+    <h3>Upload a portrat/selfie </h3>
+    <div class='no-display'>
+        <input id='file-input'
+            class='no-display'
+            type='file'
+            name='file'
+            accept='image/*'
+            onchange='showPicked(this)'>
+      </div>
+      
+      <div class='upload-label'>
+        <label id='upload-label'>No file chosen</label>
+      
+    </div>
+    <div class="row">
+        <div class='content'>
+          <div class="column"> 
+            <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+            <div class="chosen-img">
+                <img id='image-picked' class='no-display' alt='Chosen Image' height='512', width='512'>
+            </div>
+            
+        </div>
+      </div>
+      <div class="column">
+          <div class='analyze'>
+              <button id='analyze-button' class='analyze-button' type='button' onclick='enhance()'>Enhance Image!</button>
+          </div>
+          <div class='result-img'>
+            <img id='result-image' class='no-display' src=' ' alt='' height='512', width='512'>
+          </div>
+        </div>
+    </div>  
+  </div>
+</div>  
+</body>
+</html>

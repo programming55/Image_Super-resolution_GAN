@@ -1,0 +1,21 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Narayanan et~al.}{2016}]{Arvn16}
+Narayanan, A., Bonneau, J., Felten, E., Miller, A., and Goldfeder, S. (2016).
+\newblock {\em Bitcoin and Cryptocurrency Technologies}.
+\newblock Princeton University Press.
+\newblock \url{https://bitcoinbook.cs.princeton.edu/}.
+
+\bibitem[\protect\astroncite{Tar}{2018}]{Tar18}
+Tar, A. (2018).
+\newblock Proof-of-work, explained.
+\newblock {\em Cointelegraph.com}.
+\newblock \url{https://cointelegraph.com/explained/proof-of-work-explained}.
+
+\bibitem[\protect\astroncite{Wikipedia}{2019}]{Pow19}
+Wikipedia (2019).
+\newblock Proof of work.
+\newblock {\em Wikipedia the free encyclopedia}.
+\newblock \url{https://en.wikipedia.org/wiki/Proof\_of\_work}.
+
+\end{thebibliography}
