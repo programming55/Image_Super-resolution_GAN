@@ -1,0 +1,24 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Literature Review}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Generative Adversarial Networks \(GANs\)}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Image Super-resolution}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Techniques}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Applications}{subsection.2.2}% 6
+\BOOKMARK [1][-]{section.3}{Methodology}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Overview of the algorithm}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Architecture of the ML model}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Training and Test Datasets}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Training Dataset}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Test Dataset}{subsection.3.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Measures to compare images}{section.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.4.1}{MS-SSIM}{subsection.3.4}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.2}{MSE}{subsection.3.4}% 15
+\BOOKMARK [3][-]{subsubsection.3.4.3}{PSNR}{subsection.3.4}% 16
+\BOOKMARK [3][-]{subsubsection.3.4.4}{L1}{subsection.3.4}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Creating the Web Application}{section.3}% 18
+\BOOKMARK [1][-]{section.4}{Experimentation}{}% 19
+\BOOKMARK [1][-]{section.5}{Results}{}% 20
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 21
+\BOOKMARK [1][-]{section.7}{Drawbacks}{}% 22
+\BOOKMARK [1][-]{section.8}{Future Score}{}% 23
+\BOOKMARK [1][-]{section*.2}{References}{}% 24
