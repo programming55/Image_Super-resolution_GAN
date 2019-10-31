@@ -137,10 +137,10 @@
 	\begin{frame}{Overview of the algorithm}
 		\begin{enumerate}
 			\item Convert high resolution images to low resolution images
-			\item Train generator model this dataset. Store resultant generated images
+			\item Train generator model on this dataset. Store resultant generated images
 			\item Train discriminator model on generated and original images
 			\item Combine generator and discriminator in GAN and train it 
-			\item Save the model as well as generated images.
+			\item Save the model as well as generated images
 			\item Use model to upsample images to size 512 x 512
 			\item Run the model on test dataset
 			\item Import the saved models to the web application
@@ -157,7 +157,7 @@
 			\end{itemize}
 			\item Discriminator:
 			\begin{itemize}
-				\item basic gan\_critic model
+				\item basic gan\_critic model (from fastai)
 				\item Cross Entropy as loss function
 			\end{itemize}
 			\item Up-sampler:
@@ -297,7 +297,7 @@
 	\begin{frame}{Sample Results using basic up-sampler (app)}
 	\begin{figure}[htbp]
 		\centerline{\includegraphics[height=12em, width=20em]{res_2.png}}
-		\caption{Results of image enhancement (web-app) (zoom in to view difference)}
+		\caption{Results of image enhancement (web-app)}
 		\label{res2-fig}
 	\end{figure}
 \end{frame}

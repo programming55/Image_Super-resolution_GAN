@@ -81,7 +81,7 @@
 	\section{Literature Review}
 	
 		\subsection{Generative Adversarial Networks (GANs)}
-			Generator Adversarial Networks (GANs) are ML models that are composed of a \emph{generator} and a \emph{discriminator} working in tandem to learn the features of the task given to it and has a variety of applications \cite{b2}. The \emph{generator} model that attempts to recreate the ground truth (often from random noise) and the \emph{discriminator} (or critic) that attempts to distinguish between the ground truth and the output of the generator. Both the generator and the discriminator may be pre-trained to improve performance. GANs work by repeatedly running a training loop which can be loosely described as follows:
+			Generator Adversarial Networks (GANs) are ML models that are composed of a \emph{generator} and a \emph{discriminator} working in tandem to learn the features of the task given to it and has a variety of applications \cite{b2}. The \emph{generator} model attempts to recreate the ground truth (often from random noise) and the \emph{discriminator} (or critic) attempts to distinguish between the ground truth and the output of the generator. Both the generator and the discriminator may be pre-trained to improve performance. GANs work by repeatedly running a training loop which can be loosely described as follows:
 			\begin{enumerate}
 				\item The generator attempts to create the ground truth.
 				\item The discriminator takes this generated image and compares it to the ground truth
@@ -126,9 +126,9 @@
 					\item The generator model is then individually trained on this training dataset. The resultant generated images are then saved.
 					\item The discriminator model is then individually trained on the generated images and original images so that it can learn to determine the generated images from original images.
 					\item Both the generator and discriminator are then combined as a GAN and trained.
-					\item The generated images obtained from the GAN are then saved for comparison with original noisy images. The trained model was saved as well.
+					\item The generated images obtained from the GAN are then saved for comparison with low resolution images. The trained model was saved as well.
 					\item Another step to upsample the images was applied that converts the images to the resolution of ($512 * 512$ pixels). This model was also saved.
-					\item A test dataset \cite{b9} consists of low resolution images ($306 * 306$) pixels and was used to visually see the output of the model.
+					\item A test dataset \cite{b9} consists of low resolution images ($306 * 306$) pixels and was used to see the performance of the model on unknown data.
 					\item The saved models were then imported to the web application as used to enhance the images provided by the user.
 				\end{enumerate}
 		\subsection{Architecture of the ML model}
@@ -293,7 +293,7 @@
 		\end{itemize}
 		
 	\section*{Acknowledgment}
-		I express my gratitude to Dr. Pawan Kumar for providing with the opportunity to take PG-Independent Study under his guidance. During the course of the study, Dr. Pawan provided ample freedom to explore the field of study apply my own approach. Dr. Pawan also provided necessary guidance when required. The independent study helped me learn more about Generative Adversarial Networks, how they can be implemented and how to use ML models with more traditional programs like web applications.
+		I express my gratitude to Dr. Pawan Kumar for providing with the opportunity to take PG-Independent Study under his guidance. During the course of the study, Dr. Pawan provided ample freedom to explore the field of study apply my own approach. Dr. Pawan also provided necessary guidance when required. The independent study helped me learn more about Generative Adversarial Networks, how they can be implemented and also how to use ML models with more traditional programs like web applications.
 		
 	
 	
